@@ -237,7 +237,7 @@ $(document).ready(function(){
 
                 // Let's also add a marker while we're at it
                 var marker = new google.maps.Marker({
-                    position: new google.maps.LatLng(40.6700, -73.9400),
+                    position: new google.maps.LatLng(10.600181, 107.053796),
                     map: map,
                     title: 'Snazzy!'
                 });
