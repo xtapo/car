@@ -14,7 +14,7 @@
 		<!-- meta character set -->
 		<meta charset="UTF-8">
 		<!-- Site Title -->
-		<title>Car Rentals</title>
+		<title>Dịch Vụ Cho Thuê Xe Ô Tô | Du Lịch Phước Tâm</title>
 
 		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
 			<!--
@@ -29,7 +29,17 @@
 			<link rel="stylesheet" href="css/main.css">
 		</head>
 		<body>
+			<!-- Call action -->
+			<style>
 
+				#floating-phone { display: none; position: fixed; left: 10px; bottom: 10px; height: 50px; width: 50px; background: #46C11E url(img/call.png) center / 30px no-repeat; z-index: 99; color: #FFF; font-size: 35px; line-height: 55px; text- align: center; border-radius: 50%; -webkit-box-shadow: 0 2px 5px rgba(0,0,0,.5); -moz-box-shadow: 0 2px 5px rgba(0,0,0,.5); box-shadow: 0 2px 5px rgba(0,0,0,.5); }
+
+				@media (max-width: 650px) { #floating-phone { display: block; } }
+
+			</style>
+			<a href="tel:0931872929" title="Gọi 0931872929" onclick="_gaq.push(['_trackEvent', 'Contact', 'Call Now Button', 'Phone']);" id="floating-phone">
+			<i class="uk-icon-phone"></i></a>
+			<!-- End Call action -->
 			  <header id="header" id="home">
 			    <div class="container">
 			    	<div class="row align-items-center justify-content-between d-flex">
@@ -38,19 +48,20 @@
 				      </div>
 				      <nav id="nav-menu-container">
 				        <ul class="nav-menu">
-				          <li class="menu-active"><a href="index.html">Home</a></li>
-				          <li><a href="about.html">About</a></li>
-				          <li><a href="cars.html">Cars</a></li>
-				          <li><a href="service.html">Service</a></li>
-				          <li><a href="team.html">Team</a></li>	
-				          <li><a href="blog-home.html">Blog</a></li>	
-				          <li><a href="contact.html">Contact</a></li>	
-				          <li class="menu-has-children"><a href="">Pages</a>
+				          <li class="menu-active"><a href="index.html">Trang Chủ</a></li>
+				          
+				          <li><a href="cars.html">Thuê Xe</a></li>
+				          <li><a href="service.html">Dịch Vụ</a></li>
+				          
+				          <li><a href="blog-home.html">Tin Tức</a></li>	
+				          <li><a href="contact.html">Liên Hệ</a></li>	
+				    <!--      <li class="menu-has-children"><a href="">Pages</a>
 				            <ul>
 				              <li><a href="blog-single.html">Blog Single</a></li>
 				              <li><a href="elements.html">Elements</a></li>
-				            </ul>
-				          </li>			          
+				            </ul>         
+							
+				          </li>		-->	          
 				        </ul>
 				      </nav><!-- #nav-menu-container -->		    		
 			    	</div>
@@ -64,9 +75,9 @@
 					<div class="row d-flex align-items-center justify-content-center">
 						<div class="about-content col-lg-12">
 							<h1 class="text-white">
-								Cars			
+								Thuê Xe			
 							</h1>	
-							<p class="text-white link-nav"><a href="index.html">Home </a>  <span class="lnr lnr-arrow-right"></span>  <a href="cars.html"> Cars</a></p>
+							<p class="text-white link-nav"><a href="index.html">Trang Chủ </a>  <span class="lnr lnr-arrow-right"></span>  <a href="cars.html"> Thuê Xe</a></p>
 						</div>											
 					</div>
 				</div>
@@ -78,9 +89,9 @@
 				<div class="container">
 					<div class="row d-flex justify-content-center pb-40">
 						<div class="col-md-8 pb-40 header-text">
-							<h1 class="text-center pb-10">Choose your Desired Car Model</h1>
+							<h1 class="text-center pb-10">Chọn Mẫu Xe Bạn Mong Muốn</h1>
 							<p class="text-center">
-								Who are in extremely love with eco friendly system.
+								Dịch vụ cho thuê xe Du Lịch Phước Tâm
 							</p>
 						</div>
 					</div>				
@@ -88,66 +99,87 @@
 						<div class="row align-items-center single-model item">
 							<div class="col-lg-6 model-left">
 								<div class="title justify-content-between d-flex">
-									<h4 class="mt-20">Audi 3000 msi</h4>
-									<h2>$149<span>/day</span></h2>
+									<h4 class="mt-20">Vios</h4>
+									<h2>1.550k<span>/ngày</span></h2>
 								</div>
 								<p>
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+									Dòng Toyota Fortuner 7 chỗ mạnh mẽ, sang trọng và đầy tiện nghi. Xe gầm cao, phù hợp với những địa hình hiểm trở và phức tạp nhất.
 								</p>
 								<p>
-									Capacity         : 04 Person <br>
-									Doors            : 04 <br>
-									Air Condition    : Dual Zone <br>
-									Transmission     : Automatic
+									Sức chứa         : 04 Người <br>
+									Cửa              : 04 <br>
+									Máy điều hòa     : Kép <br>
+									Cần số           : Tự động
 								</p>
-								<a class="text-uppercase primary-btn" href="#">Book This Car Now</a>
+								<a class="text-uppercase primary-btn" href="https://goo.gl/forms/yta5ZgLtJhHJ6P6q2">Thuê Xe Ngay</a>
 							</div>
 							<div class="col-lg-6 model-right">
-								<img class="img-fluid" src="img/car.jpg" alt="">
+								<img class="img-fluid" src="img/vios.png" alt="xe vios 4 chỗ">
 							</div>
 						</div>
 						<div class="row align-items-center single-model item">
 							<div class="col-lg-6 model-left">
 								<div class="title justify-content-between d-flex">
-									<h4 class="mt-20">Audi 3000 msi</h4>
-									<h2>$149<span>/day</span></h2>
+									<h4 class="mt-20">Inova</h4>
+									<h2>1.550k<span>/ngày</span></h2>
 								</div>
 								<p>
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+									Dòng Toyota Fortuner 7 chỗ mạnh mẽ, sang trọng và đầy tiện nghi. Xe gầm cao, phù hợp với những địa hình hiểm trở và phức tạp nhất.
 								</p>
 								<p>
-									Capacity         : 04 Person <br>
-									Doors            : 04 <br>
-									Air Condition    : Dual Zone <br>
-									Transmission     : Automatic
+									Sức chứa         : 04 Người <br>
+									Cửa              : 04 <br>
+									Máy điều hòa     : Kép <br>
+									Cần số           : Tự động
 								</p>
-								<a class="text-uppercase primary-btn" href="#">Book This Car Now</a>
+								<a class="text-uppercase primary-btn" href="https://goo.gl/forms/yta5ZgLtJhHJ6P6q2">Thuê Xe Ngay</a>
 							</div>
 							<div class="col-lg-6 model-right">
-								<img class="img-fluid" src="img/car.jpg" alt="">
+								<img class="img-fluid" src="img/innova.png" alt="">
 							</div>
 						</div>
 						<div class="row align-items-center single-model item">
 							<div class="col-lg-6 model-left">
 								<div class="title justify-content-between d-flex">
-									<h4 class="mt-20">Audi 3000 msi</h4>
-									<h2>$149<span>/day</span></h2>
+									<h4 class="mt-20">Fortuner</h4>
+									<h2>1.550k<span>/ngày</span></h2>
 								</div>
 								<p>
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+									Dòng Toyota Fortuner 7 chỗ mạnh mẽ, sang trọng và đầy tiện nghi. Xe gầm cao, phù hợp với những địa hình hiểm trở và phức tạp nhất.
 								</p>
 								<p>
-									Capacity         : 04 Person <br>
-									Doors            : 04 <br>
-									Air Condition    : Dual Zone <br>
-									Transmission     : Automatic
+									Sức chứa         : 04 Người <br>
+									Cửa              : 04 <br>
+									Máy điều hòa     : Kép <br>
+									Cần số           : Tự động
 								</p>
-								<a class="text-uppercase primary-btn" href="#">Book This Car Now</a>
+								<a class="text-uppercase primary-btn" href="https://goo.gl/forms/yta5ZgLtJhHJ6P6q2">Thuê Xe Ngay</a>
 							</div>
 							<div class="col-lg-6 model-right">
-								<img class="img-fluid" src="img/car.jpg" alt="">
+								<img class="img-fluid" src="img/fortuner.png" alt="">
 							</div>
-						</div>												
+						</div>				
+						<div class="row align-items-center single-model item">
+							<div class="col-lg-6 model-left">
+								<div class="title justify-content-between d-flex">
+									<h4 class="mt-20">Ford</h4>
+									<h2>1.550k<span>/ngày</span></h2>
+								</div>
+								<p>
+									Dòng Toyota Fortuner 7 chỗ mạnh mẽ, sang trọng và đầy tiện nghi. Xe gầm cao, phù hợp với những địa hình hiểm trở và phức tạp nhất.
+								</p>
+								<p>
+									Sức chứa         : 04 Người <br>
+									Cửa              : 04 <br>
+									Máy điều hòa     : Kép <br>
+									Cần số           : Tự động
+								</p>
+								<a class="text-uppercase primary-btn" href="https://goo.gl/forms/yta5ZgLtJhHJ6P6q2">Thuê Xe Ngay</a>
+							</div>
+							<div class="col-lg-6 model-right">
+								<img class="img-fluid" src="img/ford.png" alt="">
+							</div>
+						</div>									
 					</div>
 				</div>	
 			</section>
@@ -159,11 +191,11 @@
 				<div class="container">
 					<div class="row justify-content-center">
 						<div class="col-lg-10">
-							<h1 class="text-white">Experience Great Support</h1>
+							<h1 class="text-white">Đội Ngũ Hỗ Trợ Tuyệt Vời</h1>
 							<p>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+								Đội ngũ nhân viên chăm sóc khách hàng tận tình, chuyên nghiệp luôn đặt lợi ích của quý khách hàng lên hàng đầu. Dulichphuoctam.com quyết tâm giải quyết mọi vấn đề trong thời gian nhanh nhất - hiệu quả nhất với quý khách hàng.
 							</p>
-							<a class="callaction-btn text-uppercase" href="#">Reach Our Support Team</a>	
+							<a class="callaction-btn text-uppercase" href="#">Hotline: 0931.872.929</a>	
 						</div>
 					</div>
 				</div>	
@@ -175,58 +207,58 @@
 				<div class="container">
 					<div class="row d-flex justify-content-center">
 						<div class="col-md-8 pb-40 header-text">
-							<h1>What Services we offer to our clients</h1>
+							<h1>Dịch vụ chúng tôi cung cấp</h1>
 							<p>
-								Who are in extremely love with eco friendly system.
+								Chất lượng Chúng tôi luôn hướng tới sự tin tưởng và tin yêu của khách hàng. 
 							</p>
 						</div>
 					</div>
 					<div class="row">
 						<div class="col-lg-4 col-md-6">
 							<div class="single-feature">
-								<h4><span class="lnr lnr-user"></span>Expert Technicians</h4>
+								<h4><span class="lnr lnr-users"></span>Tài Xế Kinh Nghiệm</h4>
 								<p>
-									Usage of the Internet is becoming more common due to rapid advancement of technology and power.
+									Với đội ngũ tài xế giàu kinh nghiệm giúp bạn yên tâm trên mọi nẻo đường.
 								</p>
 							</div>
 						</div>
 						<div class="col-lg-4 col-md-6">
 							<div class="single-feature">
-								<h4><span class="lnr lnr-license"></span>Professional Service</h4>
+								<h4><span class="lnr lnr-license"></span>Chất Lượng Dịch Vụ Tốt</h4>
 								<p>
-									Usage of the Internet is becoming more common due to rapid advancement of technology and power.
+									Cam kết chỉ thu tiền khi khách hàng hài lòng về chất lượng xe và dịch vụ.
 								</p>								
 							</div>
 						</div>
 						<div class="col-lg-4 col-md-6">
 							<div class="single-feature">
-								<h4><span class="lnr lnr-phone"></span>Great Support</h4>
+								<h4><span class="lnr lnr-phone"></span>Đội Ngũ Hỗ Trợ</h4>
 								<p>
-									Usage of the Internet is becoming more common due to rapid advancement of technology and power.
+									Tận tình, chuyên nghiệp luôn đặt lợi ích của quý khách hàng lên hàng đầu.
 								</p>								
 							</div>
 						</div>
 						<div class="col-lg-4 col-md-6">
 							<div class="single-feature">
-								<h4><span class="lnr lnr-rocket"></span>Technical Skills</h4>
+								<h4><span class="lnr lnr-rocket"></span>Dịch vụ xe đón tiễn sân bay</h4>
 								<p>
-									Usage of the Internet is becoming more common due to rapid advancement of technology and power.
+									Thời gian di chuyển nhanh, chi phí hợp lý, dòng xe sang trọng.
 								</p>				
 							</div>
 						</div>
 						<div class="col-lg-4 col-md-6">
 							<div class="single-feature">
-								<h4><span class="lnr lnr-diamond"></span>Highly Recomended</h4>
+								<h4><span class="lnr lnr-diamond"></span>Dịch vụ cho thuê xe dài hạn</h4>
 								<p>
-									Usage of the Internet is becoming more common due to rapid advancement of technology and power.
+									Có sẵn tài xế để phục vụ cho việc đi công tác, di chuyển của hành khách.
 								</p>								
 							</div>
 						</div>
 						<div class="col-lg-4 col-md-6">
 							<div class="single-feature">
-								<h4><span class="lnr lnr-bubble"></span>Positive Reviews</h4>
+								<h4><span class="lnr lnr-bubble"></span> Dịch vụ thuê xe du lịch</h4>
 								<p>
-									Usage of the Internet is becoming more common due to rapid advancement of technology and power.
+									Hợp đồng trọn gói, tài xế chuyên nghiệp, nhiệt tình, lịch sự.
 								</p>									
 							</div>
 						</div>						
