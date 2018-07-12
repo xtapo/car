@@ -29,28 +29,40 @@
 			<link rel="stylesheet" href="css/main.css">
 		</head>
 		<body>
+<!-- Call action -->
+		<style>
 
+			#floating-phone { display: none; position: fixed; left: 10px; bottom: 10px; height: 50px; width: 50px; background: #46C11E url(img/call.png) center / 30px no-repeat; z-index: 99; color: #FFF; font-size: 35px; line-height: 55px; text- align: center; border-radius: 50%; -webkit-box-shadow: 0 2px 5px rgba(0,0,0,.5); -moz-box-shadow: 0 2px 5px rgba(0,0,0,.5); box-shadow: 0 2px 5px rgba(0,0,0,.5); }
+
+			@media (max-width: 650px) { #floating-phone { display: block; } }
+
+		</style>
+		<a href="tel:0931872929" title="Gọi 0931872929" onclick="_gaq.push(['_trackEvent', 'Contact', 'Call Now Button', 'Phone']);" id="floating-phone">
+		<i class="uk-icon-phone"></i></a>
+		<!-- End Call action -->
+		
 			  <header id="header" id="home">
 			    <div class="container">
 			    	<div class="row align-items-center justify-content-between d-flex">
 				      <div id="logo">
-				        <a href="index.html"><img src="img/logo.png" alt="" title="" /></a>
+				        <a href="index.html"><img src="img/logo.png" alt="Du Lịch Phước Tâm" title="Du Lịch Phước Tâm" /></a>
 				      </div>
 				      <nav id="nav-menu-container">
 				        <ul class="nav-menu">
-				          <li class="menu-active"><a href="index.html">Home</a></li>
-				          <li><a href="about.html">About</a></li>
-				          <li><a href="cars.html">Cars</a></li>
-				          <li><a href="service.html">Service</a></li>
-				          <li><a href="team.html">Team</a></li>	
-				          <li><a href="blog-home.html">Blog</a></li>	
-				          <li><a href="contact.html">Contact</a></li>	
-				          <li class="menu-has-children"><a href="">Pages</a>
+				          <li class="menu-active"><a href="index.html">Trang Chủ</a></li>
+				          
+				          <li><a href="cars.html">Thuê Xe</a></li>
+				          <li><a href="service.html">Dịch Vụ</a></li>
+				          
+				          <li><a href="blog-home.html">Tin Tức</a></li>	
+				          <li><a href="contact.html">Liên Hệ</a></li>	
+				    <!--      <li class="menu-has-children"><a href="">Pages</a>
 				            <ul>
 				              <li><a href="blog-single.html">Blog Single</a></li>
 				              <li><a href="elements.html">Elements</a></li>
-				            </ul>
-				          </li>			          
+				            </ul>         
+							
+				          </li>		-->	          
 				        </ul>
 				      </nav><!-- #nav-menu-container -->		    		
 			    	</div>
@@ -135,39 +147,30 @@
 			<footer class="footer-area section-gap">
 				<div class="container">
 					<div class="row">
-						<div class="col-lg-2 col-md-6 col-sm-6">
+						<div class="col-lg-4 col-md-6 col-sm-6">
 							<div class="single-footer-widget">
-								<h6>Quick links</h6>
+								<h6>Công Ty TNHH Vận Tải Phước Tâm</h6>
 								<ul>
-									<li><a href="#">Jobs</a></li>
-									<li><a href="#">Brand Assets</a></li>
-									<li><a href="#">Investor Relations</a></li>
-									<li><a href="#">Terms of Service</a></li>
+									<p>Đ/c: Suối Lúp, Bình Ba, Châu Đức, BR-VT</p>
+									<p>MST: 3502361439</p>
+									<p>Hotline: 0931.872.929</p>
+									<p>
+										Email: <a href="mailto:info@dulichphuoctam.com"><span style="color: #777777">info@dulichphuoctam.com </span>	</a>
+									</p>
 								</ul>								
 							</div>
 						</div>
 						<div class="col-lg-2 col-md-6 col-sm-6">
 							<div class="single-footer-widget">
-								<h6>Features</h6>
+								<h6>Về Chúng Tôi</h6>
 								<ul>
-									<li><a href="#">Jobs</a></li>
-									<li><a href="#">Brand Assets</a></li>
-									<li><a href="#">Investor Relations</a></li>
-									<li><a href="#">Terms of Service</a></li>
+									<li><a href="#">Tuyển Dụng</a></li>
+									<li><a href="blog-single.html">Tin Tức</a></li>
+									<li><a href="contact.html">Liên Hệ</a></li>
+									
 								</ul>								
 							</div>
-						</div>
-						<div class="col-lg-2 col-md-6 col-sm-6">
-							<div class="single-footer-widget">
-								<h6>Resources</h6>
-								<ul>
-									<li><a href="#">Jobs</a></li>
-									<li><a href="#">Brand Assets</a></li>
-									<li><a href="#">Investor Relations</a></li>
-									<li><a href="#">Terms of Service</a></li>
-								</ul>								
-							</div>
-						</div>												
+						</div>									
 						<div class="col-lg-2 col-md-6 col-sm-6 social-widget">
 							<div class="single-footer-widget">
 								<h6>Follow Us</h6>
@@ -175,15 +178,15 @@
 								<div class="footer-social d-flex align-items-center">
 									<a href="#"><i class="fa fa-facebook"></i></a>
 									<a href="#"><i class="fa fa-twitter"></i></a>
-									<a href="#"><i class="fa fa-dribbble"></i></a>
-									<a href="#"><i class="fa fa-behance"></i></a>
+									<a href="#"><i class="fa fa-youtube"></i></a>
+									<a href="#"><i class="fa fa-google"></i></a>
 								</div>
 							</div>
 						</div>							
 						<div class="col-lg-4  col-md-6 col-sm-6">
 							<div class="single-footer-widget">
-								<h6>Newsletter</h6>
-								<p>Stay update with our latest</p>
+								<h6>Nhận Thông Tin Mới Nhất</h6>
+								<p>Đăng ký email để cập nhật thông tin mới</p>
 								<div class="" id="mc_embed_signup">
 									<form target="_blank" novalidate="true" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="form-inline">
 										<input class="form-control" name="EMAIL" placeholder="Enter Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Email '" required="" type="email">
@@ -199,12 +202,12 @@
 						</div>	
 						<p class="mt-50 mx-auto footer-text col-lg-12">
 							<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+							Copyright &copy;<script>document.write(new Date().getFullYear());</script> DuLichPhuocTam | Design by <a href="https://blog.xtapo.com/car/" target="_blank">NhanHQ</a>
+							<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 						</p>											
 					</div>
 				</div>
-			</footer>	
+			</footer>
 			<!-- End footer Area -->		
 
 			<script src="js/vendor/jquery-2.2.4.min.js"></script>
